@@ -1,3 +1,7 @@
 .nav_titulo img {
     height: 2rem;
 }
+
+.navbar {
+    background-color: black;
+}
