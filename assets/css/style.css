@@ -4,6 +4,10 @@
     border: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Lato", sans-serif;
     font-size: 1rem;
@@ -13,18 +17,39 @@ body {
     height: 2rem;
 }
 
+header {
+    background-color: black;
+}
+
 #principal {
     background-color: black;
-    color: white;
+    color: #d8d8d8;
 }
+
 
 .card-body {
     background-color: #0dcaf0;
+    color: #FFFFFF;
+}
+
+.card img {
+    height: 10rem;
+    object-fit: cover;
+
+}
+
+.div-iconos-quienesSomos {
+    padding: 0;
 }
 
 .fa-iconos {
-    font-size: 2em;
+    font-size: 2rem;
     color: #FFFFFF;
+}
+
+#btnEnviar {
+    background-color: #0dcaf0;
+    color: white;
 }
 
 footer {
@@ -33,6 +58,9 @@ footer {
     font-family: "Raleway";
     position: absolute;
     width: 100%;
-    padding: 2px;
     background-color: #0dcaf0;
+}
+
+.iconos_footer {
+    font-size: 2rem;
 }

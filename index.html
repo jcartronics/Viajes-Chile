@@ -31,7 +31,7 @@
 <body>
 
     <!-- Nav -->
-    <nav class="navbar navbar-expand-lg px-2 navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg px-2 navbar-dark fixed-top" id="navbar">
         <div class="container">
             <a class="navbar-brand nav_titulo ps-5" href="#">
                 <img src="assets/img/viajes.svg" alt="logo" class="img-logo">
@@ -47,13 +47,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quienes Somos</a>
+                        <a class="nav-link" href="#quienesSomos">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Destacados</a>
+                        <a class="nav-link" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -90,55 +90,78 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Siguiente</span>
             </button>
+            <!-- Fin Botones Carousel -->
         </div>
     </header>
 
 
     <main id="principal">
         <!-- Seccion Quienes somos -->
-        <section id="quienesSomos">
-            <h2 class="text-center py-5">¿Quiénes Somos?</h2>
+        <section class="d-none d-sm-none d-md-block" id="quienesSomos">
 
             <div class="container">
+                <h2 class="text-center pt-5 pb-3">¿QUIÉNES SOMOS?</h2>
+                <hr class="mb-5 mx-5">
+
                 <div class="row">
-                    <div class="col d-inline-block">
-                        <div class="card-body text-center my-auto card-body01">
-                            <a href="#" class="card-link"><i class="fa fa-plane fa-iconos" aria-hidden="true"></i></a>
+
+                    <div class="col-sm-12 col-md-4">
+                        <div class="card-body text-center div-iconos-quienesSomos my-1">
+                            <i class="fa fa-plane fa-iconos" aria-hidden="true"></i>
                         </div>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ipsum odio, efficitur vel
-                            cursus varius, lacinia non neque. Vestibulum id turpis tempus, consequat tellus eu,
-                            imperdiet nisl. Nulla efficitur mattis ipsum ut consectetur. Phasellus rutrum, mauris quis
-                            accumsan efficitur, est nisi euismod nulla, quis blandit nibh lorem eu dolor. In eu velit
-                            nec massa molestie porttitor. Etiam molestie mauris ut sapien tempor, a blandit nisl
-                            sodales. Vestibulum vitae pharetra libero. Integer volutpat justo eget lectus consequat
-                            accumsan. Maecenas posuere lorem quis orci posuere, nec volutpat quam imperdiet. Suspendisse
-                            consectetur, lorem.</p>
-                    </div>
-                    <div class="col d-inline-block">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id risus iaculis, feugiat
-                            lectus ut, vehicula metus. Phasellus metus turpis, luctus vitae viverra vitae, pulvinar quis
-                            sapien. Mauris facilisis ac metus a rutrum. Praesent arcu libero, gravida sit amet enim eu,
-                            rhoncus laoreet lacus. Duis magna ipsum, consequat aliquet nisi ac, bibendum efficitur mi.
-                            Nunc semper, massa non cursus rutrum, nisl mauris elementum eros, sed efficitur mauris risus
-                            vitae neque. Mauris libero enim, egestas ac lorem vitae, posuere fermentum lorem. Proin
-                            facilisis fermentum tortor, vel sagittis nisi hendrerit at. Praesent.</p>
-
-                        <div class="card-body text-center my-auto card-body01">
-                            <a href="#" class="card-link"><i class="fa fa-campground fa-iconos" aria-hidden="true"></i></a>
+                        <div class="card-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat ac eros eget
+                                hendrerit. Aliquam neque arcu, tempus vitae felis vitae, pulvinar varius libero. Donec
+                                auctor commodo sodales. Praesent tempor ipsum ipsum, vitae consectetur lorem egestas at.
+                                Phasellus nisi mauris, gravida vel sem ac, dignissim posuere ligula. Lorem ipsum dolor
+                                sit
+                                amet, consectetur adipiscing elit. Phasellus sodales lacus non ante placerat, ac
+                                consequat
+                                tellus auctor. Phasellus dapibus ipsum id tortor tincidunt, quis gravida augue
+                                ultricies.
+                                Quisque sed volutpat lacus. Suspendisse porta tincidunt nunc vitae posuere. Pellentesque
+                                libero mauris, fermentum et erat venenatis, viverra semper eros. </p>
                         </div>
                     </div>
-                    <div class="col d-inline-block">
-                        <div class="card-body text-center my-auto card-body01">
-                            <a href="#" class="card-link"><i class="fa fa-route fa-iconos" aria-hidden="true"></i></a>
+
+                    <div class="col-sm-12 col-md-4">
+                        <div class="card-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut euismod sem. In sit
+                                amet
+                                pharetra est, eget imperdiet ex. Maecenas aliquet mauris quis lorem faucibus, et
+                                efficitur
+                                lectus dictum. Aenean ac feugiat ligula. Phasellus molestie sed nisl et maximus. Integer
+                                aliquam dapibus viverra. Vivamus nec augue hendrerit, dapibus felis eu, aliquet urna.
+                                Nullam
+                                eget finibus mi. Etiam in semper est, vel sollicitudin lorem. Sed ac quam varius,
+                                egestas
+                                dui consectetur, elementum diam. Sed eu sem risus. Nam quis dui sit amet dui dictum
+                                pulvinar. Praesent consequat at magna et interdum. Duis in ornare sapien. Cras posuere
+                                metus
+                                sed placerat.</p>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper blandit risus at
-                            interdum. Morbi cursus semper nibh ac congue. Pellentesque justo massa, lacinia non eros ac,
-                            auctor iaculis lacus. Nunc aliquet massa vel tortor pharetra, et faucibus tortor aliquet.
-                            Suspendisse lacinia urna nec molestie cursus. Ut faucibus nec diam eu faucibus. Aliquam
-                            eleifend egestas ex, vel viverra erat mattis quis. Nullam efficitur eros et mi facilisis
-                            blandit. Suspendisse potenti. Phasellus feugiat sodales sapien, eu posuere ante consequat
-                            eget. Morbi lobortis interdum enim vel ultrices. Vestibulum ligula augue, finibus ac.</p>
+                        <div class="card-body text-center div-iconos-quienesSomos my-1">
+                            <i class="fa fa-campground fa-iconos" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4">
+                        <div class="card-body text-center my-auto div-iconos-quienesSomos my-1">
+                            <i class="fa fa-route fa-iconos" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam molestie dui sagittis quam
+                                rutrum cursus. Nulla facilisis lectus et dolor tristique rutrum. Vivamus at pharetra
+                                neque,
+                                ac scelerisque arcu. Aliquam laoreet sit amet ipsum non ullamcorper. Mauris hendrerit
+                                leo eu
+                                eleifend venenatis. Nunc dictum, nibh semper vulputate vulputate, massa urna tincidunt
+                                nisi,
+                                ac aliquet enim erat quis nibh. Maecenas placerat, est a efficitur scelerisque, quam sem
+                                interdum nulla, in rutrum tellus odio ac nibh. Praesent mollis fringilla nisl sit amet
+                                sagittis. Suspendisse laoreet, ligula a sodales rhoncus, libero quam accumsan magna, ac
+                                laoreet nisi ipsum id ligula. Integer sit amet.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -146,59 +169,51 @@
         <!-- Fin seccion Quienes somos -->
 
         <!-- Seccion destacados -->
-        <section class="destacados">
-            <h2 class="text-center">Destacados</h2>
+        <section class="destacados mb-4" id="destacados">
+
+
             <div class="container">
+                <h2 class="text-center pt-5 pb-3">DESTACADOS</h2>
+                <hr class="mb-5">
+
                 <div class="row">
-                    <div class="col">
-                        <div class="card">
-                            <img src="assets/img/card1.jpg" class="card-img-top" alt="card 1">
+                    <div class="col-xs-12 col-md-6 col-xl-6 col-xxl-3 mb-4">
+                        <div class="card h-100">
+                            <img src="assets/img/card1.jpg" class="card-img-top img-fluid" alt="card 1">
                             <div class="card-body">
-                                <h5>Lorem ipsum dolor</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Pariatur
-                                    alias reiciendis optio est quo nobis quia culpa error veritatis fugit vel
-                                    explicabo
-                                    voluptatum eum quam, vitae, atque quisquam iure. Saepe.</p>
+                                <h5>Lorem ipsum dolor sit amet</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                                    eleifend tellus nisl, vitae vulputate dolor accumsan ac. Mauris sit.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="assets/img/card2.jpg" class="card-img-top" alt="card 2">
+                    <div class="col-xs-12 col-md-6 col-xl-6 col-xxl-3 mb-4">
+                        <div class="card h-100">
+                            <img src="assets/img/card2.jpg" class="card-img-top img-fluid" alt="card 2">
                             <div class="card-body">
                                 <h5>Consectetur adipisicing elit.</h5>
-                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                    Molestias
-                                    distinctio minima recusandae quod perferendis quas pariatur hic unde quasi sequi
-                                    nostrum, aliquam consectetur magnam porro provident, ipsum aperiam odio
-                                    adipisci!
-                                </p>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                                    vehicula porta diam, ut iaculis ipsum iaculis vel. Proin ac.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="assets/img/card3.jpg" class="card-img-top" alt="card 3">
+                    <div class="col-xs-12 col-md-6 col-xl-6 col-xxl-3 mb-4">
+                        <div class="card h-100">
+                            <img src="assets/img/card3.jpg" class="card-img-top img-fluid" alt="card 3">
                             <div class="card-body">
                                 <h5>Harum minima quaerat voluptate suscipit.</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-                                    repellendus iusto autem velit, natus dolor ex reprehenderit commodi debitis
-                                    voluptate quam aliquid, repellat ducimus dolore quas modi! Maxime, soluta
-                                    dolore?
-                                </p>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac
+                                    ligula lacus. Aenean pulvinar lacinia urna, nec fringilla mauris.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="assets/img/card4.jpg" class="card-img-top" alt="card 4">
+                    <div class="col-xs-12 col-md-6 col-xl-6 col-xxl-3 mb-4">
+                        <div class="card h-100">
+                            <img src="assets/img/card4.jpg" class="card-img-top img-fluid" alt="card 4">
                             <div class="card-body">
                                 <h5>Veniam aperiam molestiae omnis.</h5>
-                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                    Eligendi
-                                    ipsam corrupti culpa. Vero ea nam enim dolorem. Ipsum inventore id, pariatur est
-                                    neque, explicabo qui voluptatum, veniam aperiam molestiae omnis.</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Suspendisse non tempor orci, a convallis massa. Aliquam imperdiet molestie mi.</p>
                             </div>
                         </div>
                     </div>
@@ -209,50 +224,56 @@
         <!-- Fin seccion destacados -->
 
         <!-- Seccion contacto-->
-        <section class="contacto">
-            <h2 class="text-center">CONTACTO</h2>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
+        <section class="contacto pb-5" id="contacto">
 
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
+            <div class="container">
+                <h2 class="text-center pt-5 pb-3">CONTACTO</h2>
+                <hr class="mb-5">
 
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Ingrese su nombre aquí">
+                </div>
 
-            <button type="button" class="btn btn-primary">Primary</button>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Ingrese el asunto aqui">
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1"
+                        placeholder="Ingrese su mensaje aqui" rows="8"></textarea>
+                </div>
+
+                <button type="button" class="btn btn-outline-primary" id="btnEnviar">Enviar</button>
+            </div>
         </section>
         <!-- Fin Seccion contacto-->
     </main>
 
     <footer>
-        <div class="container">
+        <div class="container mx-auto py-4">
             <div class="row">
-                <div class="col-5">
+                <div class="col-6 my-auto text-sm-center text-end">
                     <h1>VIAJES CHILE</h1>
                 </div>
-                <div class="col-7">
-                    <div class="row">
-                        <div class="col-2">
-                            <i class="fa-brands fa-github fa-3x"></i>
-
+                <div class="col-6 my-auto text-sm-center text-end">
+                    <div class="row justify-content-end">
+                        <div class="col-1 px-4">
+                            <i class="fa-brands fa-github fa-3x iconos_footer"></i>
                         </div>
-                        <div class="col-2">
-                            <i class="fab fa-linkedin fa-3x"></i>
+                        <div class="col-1 px-4">
+                            <i class="fab fa-linkedin fa-3x iconos_footer"></i>
                         </div>
-                        <div class="col-2">
-                            <i class="fa-brands fa-twitter-square fa-3x"></i>
+                        <div class="col-1 px-4">
+                            <i class="fa-brands fa-twitter-square fa-3x iconos_footer"></i>
                         </div>
-                        <div class="col-2">
-                            <i class="fa-brands fa-facebook-square fa-3x"></i>
+                        <div class="col-1 px-4">
+                            <i class="fa-brands fa-facebook-square fa-3x iconos_footer"></i>
                         </div>
-
                     </div>
                 </div>
             </div>
